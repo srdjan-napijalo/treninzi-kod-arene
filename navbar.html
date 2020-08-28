@@ -1,0 +1,126 @@
+      <div class="row pt-1">
+
+
+  			<div  class="col-8 col-sm-6 col-md-4 col-lg-3 float-left"> <!-- LOGO -->
+  				<img src="imgs/logo.png" class="img-fluid">
+  			</div>
+
+        <div class="col-4 col-sm-6 col-md-8 col-lg-9 m-auto p-auto"> <!--SECOND HALF OF NAVBAR -->
+
+  		    <div class="d-none d-lg-inline d-lg-flex justify-content-around">  <!-- NAV BUTTONS -->
+  					<a id="indexBtn"  href="index.html"><i class="fas fa-home"></i></a>
+            <a id="contactBtn" href="#footer"> Kontakt <span class="higlight"> <i class="fas fa-phone-square"></i> 060/0333-181 </span></a>
+            <span  class="dropdown">
+               <a class="dropdown-toggle" id="programsBtn" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Programi
+              </a>
+              <div class="dropdown-menu" aria-labelledby="programs"><!--PROGRAMS DROPDOWN -->
+                  <a class="dropdown-item" href="personal.html">Personalni treninzi</a>
+                  <a class="dropdown-item" href="recovery.html">Priprema i oporavak sportista</a>
+                  <a class="dropdown-item" href="fitness.html">Zdravstveni fitnes</a>
+                  <a class="dropdown-item" href="running.html">Treninzi za trkače</a>
+                  <a class="dropdown-item" href="massage.html">Masaža</a>
+                  <a class="dropdown-item" href="consulting.html">Cenovnik</a>
+              </div>
+            </span>   
+          
+            <span  class="dropdown"> <!--EDU DROPDOWN -->
+                 <a class="dropdown-toggle" href="#" id="eduBtn" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Edukacija
+                </a>
+                <div class="dropdown-menu" aria-labelledby="edu">
+                    <a class="dropdown-item" href="back-pain.html">Bol u leđima i trening</a>
+                    <a class="dropdown-item" href="starvation.html">Periodično gladovanje</a>
+                    <a class="dropdown-item" href="injuries.html">Sportske povrede</a>
+                </div>
+              </span> 	
+  					<a id="galleryBtn" href="gallery.html">Galerija</a>
+            <a id="onlineBtn" href="index.html#online">Onlajn <span class="higlight">treninzi</span></a> 
+  	     </div>
+        <div class="d-lg-none">       <!--  MENU BUTTON (FOR SMALL DEVICES) -->
+       <button class="third-button" type="button" data-toggle="collapse" data-target="#menu">
+          <div class="animated-icon3"><span></span><span></span><span></span></div>
+        </button>
+      </div>
+  </div> <!-- END OF SECOND HALF-->
+</div> <!-- ROW CLOSED--> 
+  <div class="row">
+
+
+
+
+  <div class="col d-lg-none collapse navbar-collapse" id="menu">   <!-- EXPANDABLE MENU -->
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" id="indexBtn2" href="index.html"><i class="fas fa-home"></i></a>
+      </li>
+      <li class="nav-item" >
+        <a id="contactBtn2" href="#footer"> Kontakt <span class="higlight"> <i class="fas fa-phone-square"></i> 060/0333-181 </span></a>
+      </li>
+      <li id="programsBtn2" class="nav-item">
+        <a  class="nav-link" type="button" data-toggle="collapse" data-target="#navbarExpand" aria-controls="#navbarExpand" aria-expanded="false">Programi
+          <i  class="fas fa-caret-down"></i>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarExpand">
+        	<ul class="navbar-nav mr-auto">
+        		<li class="nav-item">
+        			<a class="nav-link" href="personal.html">Personalni treninzi</a>
+        		</li>
+        		
+        		<li class="nav-item">
+        			<a class="nav-link" href="recovery.html">Priprema i oporavak sportista</a>
+        		</li>
+        	
+        		<li class="nav-item">
+        			<a  class="nav-link" href="fitness.html">Zdravstveni fitnes</a>
+        		</li>
+        	
+        		<li class="nav-item">
+        			<a  class="nav-link" href="running.html">Treninzi za trkače</a>
+        		</li>
+        		
+        		<li class="nav-item">
+        			<a class="nav-link" href="massage.html">Masaža</a>
+        		</li>
+        		
+        		<li class="nav-item">
+        			<a class="nav-link" href="consulting.html">Cenovnik</a>
+        		</li>
+        		<hr>
+        	</ul>
+        </div>
+      </li>
+      <li id="eduBtn2" class="nav-item">
+        <a  class="nav-link" type="button" data-toggle="collapse" data-target="#navbarExpand2" aria-controls="#navbarExpand2" aria-expanded="false">Edukacija
+          <i  class="fas fa-caret-down"></i>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarExpand2">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="back-pain.html">Bol u leđima i trening</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="starvation.html">Periodično gladovanje</a>
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link" href="injuries.html">Sportske povrede</a>
+            </li>
+            <hr>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="galleryBtn2" href="gallery.html">Galerija</a>
+      </li>
+      <li>
+      <a id="onlineBtn2" href="index.html#online">Onlajn <span class="higlight">treninzi</span></a>
+      </li>
+    </ul>
+    <!-- Links -->
+  </div>
+  </div>
+  <!-- Collapsible content -->
+<!--/.Navbar-->
+<script src="js/hamburger.js"></script>
+  <script src="js/page-selector.js"></script> 

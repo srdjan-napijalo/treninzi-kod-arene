@@ -1,0 +1,123 @@
+
+  body{
+  letter-spacing: 0.3px;
+  padding-top: 60px; 
+background: -webkit-gradient(linear, left top, left bottom, from(#243B55), to(#141E30));
+background: -o-linear-gradient(top, #243B55, #141E30);
+background: linear-gradient(to bottom, #243B55, #141E30); 
+  font-family: 'Exo 2', sans-serif;
+    color:white;
+  }
+
+nav{
+
+  background-color: #141E30;
+  border-bottom: 2px solid white;
+      font-weight: 400;
+      font-size: 0.9em;
+    text-transform: uppercase;
+     font-style: italic;
+    width: 100%;
+  }
+
+nav .dropdown .dropdown-item:hover{
+ background-color: #141E30;
+  color: #ffc61c;
+}
+
+#programsBtn2 a, #eduBtn2 a{
+	background-color:  #141E30;
+	outline:none;
+}
+
+button:focus{
+  outline:none;
+}
+button.third-button, button.third-button:focus{
+  background-color:transparent;
+  border: none;
+  outline:none;
+  float:right;
+
+}
+
+
+a{ color: white;}
+
+a:hover, nav .selected-link{
+      color: #ffc61c;
+      text-shadow: 2px 1px 30px 10px white;
+      text-decoration: none;
+}
+
+.higlight{
+  background-color: #ffc61c;
+  border-radius: 5px;
+  padding: 2px;
+  color: black;
+  font-size: 80%;
+}
+
+
+  hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    color: white; 
+    background-color: white;
+    padding: 0;
+    margin: 0 auto; 
+  }
+
+.section-title{
+  font-family: 'Exo 2', sans-serif;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.map-container-3{
+overflow:hidden;
+padding-bottom:20.25%;
+position:relative;
+height:0;
+}
+.map-container-3 iframe{
+left:0;
+top:0;
+height:90%;
+width:100%;
+position:absolute;
+}
+
+/*SOCIAL NETWORKS and contact*/
+footer{
+	background-color: #141E30;
+	border-top: 2px solid rgba(255,255,255);
+	font-size: 1.25em;
+}
+
+footer .section-title{
+  color: #ffc61c;
+}
+
+#face, #face:hover{  
+  color: #3b5998;
+}
+
+#yt, #yt:hover{
+  color: #c4302b;
+}
+#insta, #insta:hover{
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, 
+  #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, 
+  #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  } 
+
+#contactLink:hover{
+  color:white;
+}
